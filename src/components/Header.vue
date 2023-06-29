@@ -4,7 +4,8 @@ import FuelerIcon from "../assets/fueler.svg";
 </script>
 <template>
   <div class="flex justify-between px-24 py-8 max-w-screen-xl mx-auto">
-    <div class="max-w-md">
+    <div class="max-w-md relative">
+      <img class="w-24 h-auto absolute -top-4 -right-16" src="/img/leaf.png" alt="leaf" />
       <span class="flex items-center px-1 text-xl text-green">
         <span class="font-medium">100% Organic food</span>
         <img class="h-8 w-auto" src="/img/vegetable.png" alt="vegetable" />
