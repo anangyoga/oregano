@@ -10,6 +10,9 @@ export default {
         green: {
           DEFAULT: "#71B214",
         },
+        gray: {
+          600: "#606060",
+        },
       },
       spacing: {
         13: "3.25rem",
