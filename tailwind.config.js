@@ -6,6 +6,11 @@ export default {
       fontFamily: {
         sans: ["DM Sans", "sans-serif"],
       },
+      colors: {
+        green: {
+          DEFAULT: "#71B214",
+        },
+      },
     },
   },
   plugins: [],
