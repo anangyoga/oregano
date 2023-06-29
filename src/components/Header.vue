@@ -1,5 +1,6 @@
 <script setup>
 import StarIcon from "../assets/star.svg";
+import FuelerIcon from "../assets/fueler.svg";
 </script>
 <template>
   <div class="flex justify-between px-24 py-8 max-w-screen-xl mx-auto">
@@ -23,7 +24,7 @@ import StarIcon from "../assets/star.svg";
         </div>
       </div>
     </div>
-    <div class="relative flex-1 flex flex-col">
+    <div class="relative flex-1 flex flex-col justify-between">
       <img class="max-w-xl drop-shadow-2xl self-end" src="img/dish.png" alt="dish" />
       <div class="absolute -right-6 top-32 flex flex-col py-5 px-7 rounded-xl shadow-xl bg-white/80 backdrop-blur-xl hover:-translate-y-2 hover:shadow-xl cursor-pointer transition-all duration-300">
         <div class="flex -space-x-3">
@@ -43,6 +44,11 @@ import StarIcon from "../assets/star.svg";
           <h3 class="font-bold">Fast Delivery</h3>
           <p class="text-gray-600 leading-relaxed">30 mins delivery</p>
         </div>
+      </div>
+      <div class="flex justify-end space-x-1 font-bold">
+        <span>Powered by</span>
+        <FuelerIcon class="w-6 h-6 text-gray-900 fill-current" />
+        <span>Fueler</span>
       </div>
     </div>
   </div>
