@@ -1,3 +1,6 @@
+<script setup>
+import StarIcon from "../assets/star.svg";
+</script>
 <template>
   <div class="flex justify-between px-24 py-8 max-w-screen-xl mx-auto">
     <div class="max-w-md">
@@ -17,6 +20,21 @@
           <h4 class="text-xl font-bold leading-relaxed">Chef of the month</h4>
           <div class="inline-flex text-gray-600 leading-relaxed">People loved his 🍳</div>
           <p class="text-green font-bold leading-relaxed">80+ famous dishes</p>
+        </div>
+      </div>
+    </div>
+    <div class="relative flex-1 flex flex-col">
+      <img class="max-w-xl drop-shadow-2xl self-end" src="img/dish.png" alt="dish" />
+      <div class="absolute -right-6 top-32 flex flex-col py-5 px-7 rounded-xl shadow-xl bg-white/80 backdrop-blur-xl hover:-translate-y-2 hover:shadow-xl cursor-pointer transition-all duration-300">
+        <div class="flex -space-x-3">
+          <div v-for="i in 3" class="w-13 h-13 rounded-full border-4 border-white object-cover overflow-hidden">
+            <img :src="`/public/img/avatar-${i}.jpeg`" alt="" />
+          </div>
+        </div>
+        <h3 class="pt-3 font-bold">Happy Customers</h3>
+        <div class="flex items-center gap-x-[1px] leading-relaxed text-gray-600">
+          <StarIcon class="w-5 h-5" />
+          <p>4.9 (+2.5K Ratings)</p>
         </div>
       </div>
     </div>
