@@ -37,6 +37,13 @@ import StarIcon from "../assets/star.svg";
           <p>4.9 (+2.5K Ratings)</p>
         </div>
       </div>
+      <div class="absolute left-0 bottom-16 flex rounded-xl shadow-xl bg-white/80 backdrop-blur-xl hover:-translate-y-2 hover:shadow-xl cursor-pointer transition-all duration-300">
+        <img class="w-auto h-20 self-end" src="/img/driver.png" alt="driver" />
+        <div class="pr-7 pl-2 py-5">
+          <h3 class="font-bold">Fast Delivery</h3>
+          <p class="text-gray-600 leading-relaxed">30 mins delivery</p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
