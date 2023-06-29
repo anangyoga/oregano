@@ -26,7 +26,7 @@ import FuelerIcon from "../assets/fueler.svg";
       </div>
     </div>
     <div class="relative flex-1 flex flex-col justify-between">
-      <img class="max-w-xl w-80 lg:w-full drop-shadow-2xl self-end" src="img/dish.png" alt="dish" />
+      <img class="max-w-xl w-80 lg:w-full drop-shadow-2xl self-end" src="/img/dish.png" alt="dish" />
       <div class="absolute right-0 lg:-right-6 top-0 lg:top-28 flex flex-col py-5 px-7 rounded-2xl shadow-xl bg-white/80 backdrop-blur-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
         <div class="flex -space-x-3">
           <div v-for="i in 3" class="w-13 h-13 rounded-full border-4 border-white object-cover overflow-hidden">
